@@ -1,12 +1,12 @@
 const arrayImagens = [
   {
-    url: "https://img.freepik.com/fotos-gratis/mao-humana-digitando-no-teclado-do-computador-a-noite-gerada-por-ia_188544-31050.jpg?w=826&t=st=1701814344~exp=1701814944~hmac=5f93bdbf6f11a11dc13af308b854a34acc521dc610056c3b99439c2fae97a31c",
+    url: "https://desafio.xlow.com.br/assets/img-referencia-slider1.png",
     alt: 'Texto Alternativo',
     link: '#'
 
   },
   {
-    url: "https://img.freepik.com/fotos-premium/vista-superior-do-computador-de-super-alto-desempenho-usado-para-videogames-na-sala-de-jogos_308072-2033.jpg?w=740",
+    url: "https://desafio.xlow.com.br/assets/img-referencia-slider2.png",
     alt: 'Texto Alternativo2',
     link: '#'
 
