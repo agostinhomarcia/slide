@@ -14,7 +14,9 @@ hyperlink
 As imagens deve ser adicionadas no Slider através de um array de objetos contendo as informações:
 
 url
+<br>/
 alt
+<br>/
 link
 
 #### IMAGEM DE REFERÊNCIA
@@ -24,7 +26,9 @@ imagem de referência 1 imagem de referência 2
 #### TECNOLOGIAS PERMITIDAS NESTE DESAFIO
 
 HTML5
+<br/>
 CSS: CSS MODULES
+<br>/
 REACT
 
 Observação: Não é permitido utilizar nenhuma biblioteca do ecossistema react
