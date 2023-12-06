@@ -1,3 +1,9 @@
 body {
   background-color: #808080;
 }
+.title {
+  color: #ffffff;
+  font-size: 34px;
+  font-weight: bold;
+  text-align: center;
+}
