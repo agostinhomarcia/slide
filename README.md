@@ -28,7 +28,7 @@ imagem de referência 1 imagem de referência 2
 HTML5
 <br/>
 CSS: CSS MODULES
-<br>/
+<br>
 REACT
 
 Observação: Não é permitido utilizar nenhuma biblioteca do ecossistema react
