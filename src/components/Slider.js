@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './style.css'
+import styles from './slider.module.css'
 
 const Slider = ({ images }) => {
   const [currentImage, setCurrentImage] = useState(0);
@@ -25,27 +25,27 @@ const Slider = ({ images }) => {
 
 
   return (
-    <div className='slider'>
-      <div className='imageContainer'>
+    <div className={styles.slider}>
+      <div className={styles.imageContainer}>
         <a href={images[currentImage].link}>
           <img src={images[currentImage].url} alt={images[currentImage].alt} />
         </a>
       </div>
 
-      <div className='controls'>
-        <button className='navButton' onClick={prevImage}>
+      <div className={styles.controls}>
+        <button className={styles.navButton} onClick={prevImage}>
           Anterior
         </button>
-        <div className='dots'>
+        <div className={styles.dots}>
           {images.map((image, index) => (
             <span
               key={index}
-              className={currentImage === index ? 'activeDot' : 'dot'}
+              className={currentImage === index ? styles.activeDot : styles.dot}
               onClick={() => goToImage(index)}
             ></span>
           ))}
         </div>
-        <button className='navButton' onClick={nextImage}>
+        <button className={styles.navButton} onClick={nextImage}>
           Próxima
         </button>
       </div>
